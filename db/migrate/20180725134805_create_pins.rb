@@ -1,3 +1,5 @@
+# Création de la table Pins qui contient les champs suivants:
+# url, user_id foreigh key et created_at et updated_at
 class CreatePins < ActiveRecord::Migration[5.2]
   def change
     create_table :pins do |t|
